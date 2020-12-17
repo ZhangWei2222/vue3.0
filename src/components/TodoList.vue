@@ -15,6 +15,7 @@
         :key="todo.id"
         :title="todo.title"
         @remove="todos.splice(index, 1)"
+        @click="test"
       ></TodoItem>
     </ul>
   </div>
@@ -52,6 +53,9 @@ export default {
       });
       this.newTodoText = "";
     },
+    test(){
+      console.log('00')
+    }
   },
   components:{
     TodoItem
