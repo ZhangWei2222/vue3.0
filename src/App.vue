@@ -3,7 +3,8 @@
   <!-- <HelloWorld msg="Hello Vue 3.0 + Vite" /> -->
   <!-- <TodoList/> -->
   <!-- <BlogPosts/> -->
-  <Custom />
+  <!-- <Custom /> -->
+  <NoProp />
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import TodoList from "./components/TodoList.vue";
 import BlogPosts from "./components/BlogPosts.vue";
 import Custom from "./components/Custom.vue";
+import NoProp from './components/NoProp.vue'
 
 export default {
   name: "App",
@@ -19,6 +21,7 @@ export default {
     TodoList,
     BlogPosts,
     Custom,
+    NoProp
   },
 };
 </script>
