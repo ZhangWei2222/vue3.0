@@ -4,7 +4,8 @@
   <!-- <TodoList/> -->
   <!-- <BlogPosts/> -->
   <!-- <Custom /> -->
-  <NoProp />
+  <!-- <NoProp /> -->
+  <ValidEmits />
 </template>
 
 <script>
@@ -12,7 +13,9 @@ import HelloWorld from "./components/HelloWorld.vue";
 import TodoList from "./components/TodoList.vue";
 import BlogPosts from "./components/BlogPosts.vue";
 import Custom from "./components/Custom.vue";
-import NoProp from './components/NoProp.vue'
+import NoProp from "./components/NoProp.vue";
+import ForceUpdate from "./components/ForceUpdate.vue";
+import ValidEmits from './components/ValidEmits.vue';
 
 export default {
   name: "App",
@@ -21,7 +24,9 @@ export default {
     TodoList,
     BlogPosts,
     Custom,
-    NoProp
+    NoProp,
+    ForceUpdate,
+    ValidEmits
   },
 };
 </script>
