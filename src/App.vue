@@ -5,7 +5,10 @@
   <!-- <BlogPosts/> -->
   <!-- <Custom /> -->
   <!-- <NoProp /> -->
-  <ValidEmits />
+  <!-- <ValidEmits /> -->
+  <!-- <SingleModel /> -->
+  <!-- <MoreModel /> -->
+  <Capitalize />
 </template>
 
 <script>
@@ -16,6 +19,9 @@ import Custom from "./components/Custom.vue";
 import NoProp from "./components/NoProp.vue";
 import ForceUpdate from "./components/ForceUpdate.vue";
 import ValidEmits from './components/ValidEmits.vue';
+import SingleModel from './components/SingleModel.vue';
+import MoreModel from './components/MoreModel.vue';
+import Capitalize from './components/Capitalize.vue';
 
 export default {
   name: "App",
@@ -26,7 +32,10 @@ export default {
     Custom,
     NoProp,
     ForceUpdate,
-    ValidEmits
+    ValidEmits,
+    SingleModel,
+    MoreModel,
+    Capitalize
   },
 };
 </script>
