@@ -9,7 +9,8 @@
   <!-- <SingleModel /> -->
   <!-- <MoreModel /> -->
   <!-- <Capitalize /> -->
-  <Slot />
+  <!-- <Slot /> -->
+  <Provide />
 </template>
 
 <script>
@@ -24,6 +25,7 @@ import SingleModel from './components/SingleModel.vue';
 import MoreModel from './components/MoreModel.vue';
 import Capitalize from './components/Capitalize.vue';
 import Slot from './components/Slot.vue';
+import Provide from './components/Provide.vue';
 
 export default {
   name: "App",
@@ -38,7 +40,8 @@ export default {
     SingleModel,
     MoreModel,
     Capitalize,
-    Slot
+    Slot,
+    Provide
   },
 };
 </script>
