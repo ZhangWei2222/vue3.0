@@ -8,7 +8,8 @@
   <!-- <ValidEmits /> -->
   <!-- <SingleModel /> -->
   <!-- <MoreModel /> -->
-  <Capitalize />
+  <!-- <Capitalize /> -->
+  <Slot />
 </template>
 
 <script>
@@ -22,6 +23,7 @@ import ValidEmits from './components/ValidEmits.vue';
 import SingleModel from './components/SingleModel.vue';
 import MoreModel from './components/MoreModel.vue';
 import Capitalize from './components/Capitalize.vue';
+import Slot from './components/Slot.vue';
 
 export default {
   name: "App",
@@ -35,7 +37,8 @@ export default {
     ValidEmits,
     SingleModel,
     MoreModel,
-    Capitalize
+    Capitalize,
+    Slot
   },
 };
 </script>
