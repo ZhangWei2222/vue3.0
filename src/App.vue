@@ -11,7 +11,8 @@
   <!-- <Capitalize /> -->
   <!-- <Slot /> -->
   <!-- <Provide /> -->
-  <Setup/>
+  <!-- <Setup/> -->
+  <TeleportDEMO />
 </template>
 
 <script>
@@ -27,6 +28,7 @@ import Capitalize from './components/Capitalize.vue';
 import Slot from './components/Slot.vue';
 import Provide from './components/Provide.vue';
 import Setup from './components/Setup.vue';
+import TeleportDEMO from './components/Teleport.vue';
 
 export default {
   name: "App",
@@ -42,7 +44,8 @@ export default {
     Capitalize,
     Slot,
     Provide,
-    Setup
+    Setup,
+    TeleportDEMO
   },
 };
 </script>
