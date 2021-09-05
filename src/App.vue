@@ -1,6 +1,6 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Hello Vue 3.0 + Vite" /> -->
+  <HelloWorld />
   <!-- <TodoList/> -->
   <!-- <BlogPosts/> -->
   <!-- <Custom /> -->
@@ -11,8 +11,8 @@
   <!-- <Capitalize /> -->
   <!-- <Slot /> -->
   <!-- <Provide /> -->
-  <!-- <Setup/> -->
-  <TeleportDEMO />
+  <!-- <Setup /> -->
+  <!-- <TeleportDEMO /> -->
 </template>
 
 <script>
@@ -21,14 +21,14 @@ import TodoList from "./components/TodoList.vue";
 import BlogPosts from "./components/BlogPosts.vue";
 import Custom from "./components/Custom.vue";
 import NoProp from "./components/NoProp.vue";
-import ValidEmits from './components/ValidEmits.vue';
-import SingleModel from './components/SingleModel.vue';
-import MoreModel from './components/MoreModel.vue';
-import Capitalize from './components/Capitalize.vue';
-import Slot from './components/Slot.vue';
-import Provide from './components/Provide.vue';
-import Setup from './components/Setup.vue';
-import TeleportDEMO from './components/Teleport.vue';
+import ValidEmits from "./components/ValidEmits.vue";
+import SingleModel from "./components/SingleModel.vue";
+import MoreModel from "./components/MoreModel.vue";
+import Capitalize from "./components/Capitalize.vue";
+import Slot from "./components/Slot.vue";
+import Provide from "./components/Provide.vue";
+import Setup from "./components/Setup.vue";
+import TeleportDEMO from "./components/Teleport.vue";
 
 export default {
   name: "App",
@@ -45,7 +45,7 @@ export default {
     Slot,
     Provide,
     Setup,
-    TeleportDEMO
+    TeleportDEMO,
   },
 };
 </script>
